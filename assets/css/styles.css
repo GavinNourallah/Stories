@@ -1,5 +1,83 @@
 /* styles.css */
 
 * {
-	font-family: Arial;
+	font-family: Pixelify Sans;
+	color: white;
+	font-size: 20px;
+}
+
+body {
+	background-color: black;
+	margin-left: 30px;
+	margin-top: 25px;
+}
+
+.pixelify-sans-pixel {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	color: white;
+	font-size: 150px;
+	font-style: bold;
+	font-family: "Tiny5", sans-serif;
+	line-height: 55%;
+}
+
+h2 {
+	color: rgb(148, 148, 148);
+	font-size: 75px;
+	font-style: bold;
+	font-family: "Pixelify Sans", sans-serif;
+}
+
+.choices {
+	color:dimgray;
+	font-size: 80px;
+	font-style: bold;
+	font-family: "Pixelify Sans", sans-serif;
+	text-decoration: none;
+	border: 3px solid dimgray;
+	padding: 10px;
+}
+
+.choices:hover {
+	color: white;
+	border: 3px solid white;
+	padding: 10px;
+}
+
+.warning {
+	color: rgb(230, 58, 58);
+	font-size: 30px;
+	font-style: bold;
+	line-height: 55%;
+}
+
+.important {
+	color: blue;
+}
+
+.goodimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	height: auto;
+}
+
+.typewriter {
+  margin-left: 13em;
+  margin-right: 13em;
+  font-size: 1.3em;
+	display: inline-block;
+  white-space: pre-wrap; /* allows multi-line text */
+  animation: blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent; }
 }
